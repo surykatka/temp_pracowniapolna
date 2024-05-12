@@ -1,11 +1,14 @@
 <html>
   <body>
     <img src="https://i.picasion.com/gl/92/iIqY.gif"/>
+    <br/><br/>
     <img src="kudla.jpg" width="50%"/>
     <script>
       function changePage(whereToGo, messageText)
       {
-          alert(messageText);
+          setTimeout(function(){
+             alert(messageText);
+          }, 3000);
           setTimeout(function(){
               window.location=whereToGo;
           }, 5000);
