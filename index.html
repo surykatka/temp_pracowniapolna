@@ -1,16 +1,16 @@
 <html>
   <body>
+    <img src="https://i.picasion.com/gl/92/iIqY.gif"/>
     <img src="kudla.jpg" width="50%"/>
     <script>
       function changePage(whereToGo, messageText)
       {
           alert(messageText);
-          window.location=whereToGo;
+          setTimeout(function(){
+              window.location=whereToGo;
+          }, 5000);
       }
     </script>
     <script>changePage("https://www.instagram.com/pracownia_polna/", "Ta stronka jeszcze się nie obudziła!!! Daj jej spać!!!");</script>
-    <script>
-    alert("Ta stronka jeszcze się nie obudziła!!! Daj jej spać!!!") && window.location="https://www.instagram.com/pracownia_polna/";
-    </script>
   </body>
 </html>
